@@ -4,7 +4,7 @@ public class basejava {
 	/*
 	 *  Declaring access specifiers
 	 */
-	int varDefault=10;
+	int varDefault=10;// no access specifier then it is default
 	public int varPublic=20;
 	private int varPrivate=30;
 	protected int varProtected=40;
@@ -27,7 +27,7 @@ public class basejava {
 		System.out.println("Private access base class");
 	    System.out.println("default variable"+varPrivate);
 }
-	protected void methodProtected() {
+	protected void methodProtected() { //default method
 			System.out.println("protected access base class");
 			System.out.println("default variable"+varProtected);
 	}
