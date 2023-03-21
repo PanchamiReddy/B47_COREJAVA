@@ -8,8 +8,10 @@ public class Singledemo {
 //	i.displayNational();
 //		i.displayLocal();
 		Karnataka k=new Karnataka();
-		k.displayLocal();
-		k.displayNational();
+		
+		k.displayLocalKarnataka();
+		k.displayLocalKerala();
+		k.displayNationalIndia();
 		
 	}
 
